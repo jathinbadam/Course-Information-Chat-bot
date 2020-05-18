@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category>
+    <pattern>cs electives for placement</pattern>
+    <template>  
+        These courses are important:
+        1) Data Structure Algorithms
+        2) DBMS
+        3) Software Engineering
+        4) Operating Systems
+	5) Object Oriented Programming
+	6) Computer Networks
+    </template>
+</category>
+
+<category>
+    <pattern>ds electives for placement</pattern>
+    <template>  
+        These courses are necessary:
+        1) Foundations of Data Science
+        2) Machine Learning
+        3) Artificial Intelligence
+        4) Appplied Statistical methods
+	5) Information Retrieval
+	6) Data Mining
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS DOING RESEARCH IN DATA MINING</pattern>
+    <template>  
+       	DR. CHRISTOPHER is doing research in data mining. his projects are : Dr. Christopher's doctoral thesis presents a bio-inspired design of an optimization algorithm that can be used for enhancing Rule-based Classifiers. Moreover it presents applications of 
+        computing methods and data mining approaches in Medical Diagnosis.  His research interests span the areas of Data Mining, Machine Learning and Swarm Intelligence Algorithms. He also works on benchmarking and evaluation of optimization algorithms.link to his  
+        complete research interest page : http://universe.bits-pilani.ac.in/hyderabad/jabezjchristopher/ResearchInterest
+    </template>
+</category>
+
+<category>
+    <pattern>who teaches Artificial Intelligence</pattern>
+    <template>  
+              THIS IS TAUGHTH BY PROF. HOTA  Dr. Chittaranjan Hota, Professor of Computer Science and Engineering, completed his Ph.D from BITS, Pilani and has over twenty-eight years of academic and research experience in Indian and universities abroad. His Ph.D work
+              was on Quality of Service (QoS) assurances in IP-Virtual Private Networks, part of which was carried out at University of New South Wales, Sydney, Australia. Prior to PhD, he had earned Bachelors of Engineering, and Masters of Engineering in Computerscience. 
+    </template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template>INDUSTRY TRENDS</template>
+</category>
+
+<category>
+    <pattern>_ INDUSTRY *</pattern>
+    <template>INDUSTRY TRENDS</template>
+</category>
+
+<category>
+    <pattern> * ELECTIVES * </pattern>
+    <template><srai>WHAT COURSES TO TAKE</srai></template>
+</category>
+  
+<category>
+    <pattern> * ELECTIVES</pattern>
+    <template><srai>WHAT COURSES TO TAKE</srai></template>
+</category>
+  
+<category>
+    <pattern>WHAT COURSES TO TAKE</pattern>
+    <template>Should I show courses based on industry trends</template>
+</category>
+  
+<category>
+    <pattern>YES</pattern>
+    <that>Should I show courses based on industry trends</that>
+    <template><srai>INDUSTRY TRENDS</srai></template>
+</category>
+
+<category>
+    <pattern>YES *</pattern>
+    <that>Should I show courses based on industry trends</that>
+    <template><srai>INDUSTRY TRENDS</srai></template>
+</category>
+
+<category>
+    <pattern>INDUSTRY TRENDS</pattern>
+    <template>
+        These courses are trending in the industry: newline
+        1) Data Structure Algorithms
+        2) Artificial Intelligence
+        3) Software Engineering
+    </template>
+</category>
+
+<category>
+    <pattern>NO *</pattern>
+    <that>Should I show courses based on industry trends</that>
+    <template>Okay, as you wish.</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>Should I show courses based on industry trends</that>
+    <template>Okay, as you wish.</template>
+</category>
+
+<category>
+ 	<pattern> WHO TEACHES ARTIFICIAL INTELLIGENCE </pattern>
+ 	<template>THIS IS TAUGHT BY PROF. HOTA newline
+                <srai> HOTA </srai> 
+        </template>
+</category>
+
+<category>
+     <pattern> * HOTA * </pattern>
+     <template>
+           <srai> HOTA </srai> 
+    </template>
+</category>
+
+<category>
+     <pattern>  HOTA * </pattern>
+     <template>
+           <srai> HOTA </srai> 
+    </template>
+</category>
+
+ <category>
+ 	<pattern> TELL ME ABOUT PROFESSOR HOTA </pattern>
+ 	<template><srai> HOTA </srai> </template>
+ </category>
+
+<category>
+ 	<pattern> TELL ME ABOUT PROF HOTA </pattern>
+ 	<template><srai> HOTA </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHAT ARE RECENT PUBLICATIONS OF PROF HOTA </pattern>
+ 	<template><srai> HOTAPAPERS </srai> </template>
+ </category>
+
+ <category>
+ 	<pattern> TELL ME EVERYTHING ABOUT PROF HOTA </pattern>
+ 	<template>
+     <srai> HOTA </srai> newline 
+     <srai> HOTARESEARCH </srai> newline 
+     <srai> HOTAPAPERS  </srai>
+     </template>
+ </category>
+
+ <category>
+ 	<pattern> WHAT DOES PROF HOTA WORK ON </pattern>
+ 	<template>He primarily works in IOT security. His projects are: <srai> HOTARESEARCH </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHO IS DOING RESEARCH IN IOT </pattern>
+ 	<template>Professor hota is doing research in iot. his projects are : newline<srai> HOTARESEARCH </srai> </template>
+ </category>
+
+
+<category>
+     <pattern>  HOTA  </pattern>
+     <template>
+            Dr. Chittaranjan Hota, Professor of Computer Science and Engineering, completed his Ph.D from BITS, Pilani and has over twenty-eight years of academic and research experience in Indian and universities abroad. 
+            His Ph.D work was on Quality of Service (QoS) assurances in IP-Virtual Private Networks, part of which was carried out at University of New South Wales, Sydney, Australia. 
+            Prior to PhD, he had earned Bachelors of Engineering, and Masters of Engineering in Computer science.
+            newline link to his profile is this : http://universe.bits-pilani.ac.in/hyderabad/chittaranjanhota/Profile
+    </template>
+</category>
+
+<category>
+     <pattern>  HOTARESEARCH </pattern>
+     <template>
+            (IoT Security) Title: Lightweight Code Self-verification for Internet of Things (IoT) Devices, funded by DeitY-NWO under Indo-Dutch Joint Research programme for ICT, July 2015 (2015-2019), Project outlay: 380, 000 Euros.
+            Principal Investigators: Prof. Herbert Bos (Vrije University, Amsterdam), Prof. Chittaranjan Hota (BITS-Hyderabad), Dr. Cristiano Giuffrida (VU, Amsterdam)
+            newline link to his complete research page : http://universe.bits-pilani.ac.in/hyderabad/chittaranjanhota/SponsoredProjects
+    </template>
+</category>
+
+<category>
+     <pattern>  HOTAPAPERS </pattern>
+     <template>
+            His recent publications are : newline 1) Social media and Machine computation for Task Assignment in Crowd-sourcing platform,
+            newline 2) STEEP: speed and time-based energy efficient neighbor discovery in opportunistic networks newline
+            for the complete list refer this link : http://universe.bits-pilani.ac.in/hyderabad/chittaranjanhota/Publications
+    </template>
+</category>
+
+
+
+ <category>
+ 	<pattern> WHO TEACHES DSA</pattern>
+ 	<template>THIS IS TAUGHT BY PROF. BHANUMURTHY newline
+                <srai> BHANU </srai> 
+        </template>
+ </category>
+
+
+ <category>
+ 	<pattern>_ DSA *</pattern>
+ 	<template>THIS IS TAUGHT BY PROF. BHANUMURTHY newline
+                <srai> BHANU </srai> 
+        </template>
+ </category>
+
+ <category>
+ 	<pattern>_ Data Structures *</pattern>
+ 	<template>THIS IS TAUGHT BY PROF. BHANUMURTHY newline
+                <srai> BHANU </srai> 
+        </template>
+ </category>
+
+ <category>
+    <pattern> WHO TEACHES MACHINE LEARNING</pattern>
+    <template>THIS IS TAUGHT BY PROF. BHANUMURTHY newline
+                <srai> BHANU </srai> 
+        </template>
+ </category>
+
+<category>
+     <pattern> * BHANU * </pattern>
+     <template>
+           <srai> BHANU </srai> 
+    </template>
+</category>
+
+<category>
+     <pattern>  BHANU * </pattern>
+     <template>
+           <srai> BHANU </srai> 
+    </template>
+</category>
+
+
+
+ <category>
+ 	<pattern> TELL ME ABOUT PROFESSOR BHANUMURTHY </pattern>
+ 	<template><srai> BHANU </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHAT ARE RECENT PUBLICATIONS OF PROF BHANUMURTHY </pattern>
+ 	<template><srai> BHANUPAPERS </srai> </template>
+ </category>
+
+ <category>
+ 	<pattern> TELL ME EVERYTHING ABOUT PROF BHANUMURTHY </pattern>
+ 	<template>
+     <srai> BHANU </srai> newline 
+     <srai> BHANURESEARCH </srai> newline 
+     <srai> BHANUPAPERS  </srai>
+     </template>
+ </category>
+
+ <category>
+ 	<pattern> WHAT DOES PROF BHANUMURTHY WORK ON </pattern>
+ 	<template>He primarily works in machine learning, deep learning and its applications. His interests are: <srai> BHANURESEARCH </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHO IS DOING RESEARCH IN MACHINE LEARNING </pattern>
+ 	<template>Professor bhanumurthy is doing research in ml. his intrests are are : newline<srai> BHANURESEARCH </srai> </template>
+ </category>
+
+
+<category>
+     <pattern>  BHANU  </pattern>
+     <template>
+            Education Details newline
+            1) M.Tech. (Computer Applications) from Indian Institute of Technology Delhi (IIT Delhi), 1994 newline
+            2) Ph.D. (Thesis Title - Polytope of degree sequences of threshold hypergraphs) from Indian Institute of Technology Bombay (IIT Bombay), 2000 newline
+            University Ranker and Gold Medalist at graduate and under-graduate studies newline
+            newline Experience newline
+            Worked in IT Industry from Aug 1999 till Jun 2010 as Solution Architect / Enterprise Architect newline
+            for more details visit : http://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile
+    </template>
+</category>
+
+<category>
+     <pattern>  BHANURESEARCH </pattern>
+     <template>
+            Machine Learning newline
+            Software Anlytics newline
+            Software Engineering newline
+    </template>
+</category>
+
+<category>
+     <pattern>  BHANUPAPERS </pattern>
+     <template>
+            his recent publications are : newline
+            1) C K Shriram, K Muthukumaran, Bhanu Murthy N L, Empirical Study on the Distribution of Bugs in Software Systems, newline
+            2) Multi Objective Cross Version Defect     Prediction. Soft computing (In Press), Springer International Publishing newline
+            for complete list refer to this link : http://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Publications
+    </template>
+</category>
+
+ <category>
+ 	<pattern> WHO TEACHES SOFTWARE ENGINEERING</pattern>
+ 	<template>SOFTWARE ENGINEERING IS TAUGHT BY NARASIMHA newline
+                <srai> BOLLOJU </srai> 
+        </template>
+ </category>
+
+<category>
+     <pattern> * BOLLOJU * </pattern>
+     <template>
+           <srai> BOLLOJU </srai> 
+    </template>
+</category>
+
+<category>
+     <pattern>  BOLLOJU * </pattern>
+     <template>
+           <srai> BOLLOJU </srai> 
+    </template>
+</category>
+
+
+
+ <category>
+ 	<pattern> TELL ME ABOUT * BOLLOJU </pattern>
+ 	<template><srai> BOLLOJU </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHAT ARE RECENT PUBLICATIONS OF * BOLLOJU </pattern>
+ 	<template><srai> BOLLOJUPAPERS </srai> </template>
+ </category>
+
+ <category>
+ 	<pattern> TELL ME EVERYTHING ABOUT * BOLLOJU </pattern>
+ 	<template>
+     <srai> BOLLOJU </srai> newline 
+     <srai> BOLLOJURESEARCH </srai> newline 
+     <srai> BOLLOJUPAPERS  </srai>
+     </template>
+ </category>
+
+ <category>
+ 	<pattern> WHAT DOES * BOLLOJU WORK ON </pattern>
+ 	<template>He primarily works on Agile workflow for making Software. His projects are: newline <srai> BOLLOJURESEARCH </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHO IS DOING RESEARCH IN SOFTWARE ENGINEERING </pattern>
+ 	<template>Prof. Bolloju is doing research in Software Engineering. his projects are : newline<srai> BOLLOJURESEARCH </srai> </template>
+ </category>
+
+
+<category>
+     <pattern>  BOLLOJU  </pattern>
+     <template>
+            Narsimha Bolloju is currently an Professor in the Department of Computer Science and Information Systems, BITS-Pilani (Hyderabad Campus), where he teaches graduate and undergraduate courses in computer science and engineering. He holds a Ph.D. degree in Computer Science from University of Hyderabad. He also holds an Professional training degree on "Delivering Information Services" from Harvard Business School. newline
+            He started his career in the IT industry at CMC Ltd. as a Systems Specialist. He then started his academic career as an Associate Professor at City University of Hong Kong. He then went on to become a Professor of CSE at The LNMIIT, Jaipur. newline
+            link to his profile is this : https://universe.bits-pilani.ac.in/hyderabad/narasimhabolloju/Profile
+    </template>
+</category>
+
+<category>
+     <pattern>  BOLLOJURESEARCH </pattern>
+     <template>
+            Prof Narsimha Bolloju's research interest are in the field of Software Engineering and coming up with better system designs and flow newline
+            newline link to his complete research interest page : https://universe.bits-pilani.ac.in/hyderabad/narasimhabolloju/ResearchInterest
+    </template>
+</category>
+
+<category>
+     <pattern>  BOLLOJUPAPERS </pattern>
+     <template>
+            Dr BOLLOJU's recent publications are : newline
+            1.      Purao, S., Bolloju, N., and Tan, C.H., 2018, “A Modeling Language for Conceptual Design of Systems Integration Solutions”, ACM Transactions on Management Information Systems, (in press) Accepted for publication in January 2018 newline
+            2.      Bolloju, N., and Alter S., 2016, “Better Use Case Diagrams by Using Work System Snapshots" International Journal of Information Technologies and Systems Approach (IJITSA) 9.2 (2016): 1-22. newline
+            3.      Alter, S. and Bolloju, N., 2016, “A Work System Front End for Object-Oriented Analysis and Design." International Journal of Information Technologies and Systems Approach (IJITSA) 9.1 (2016): 1-18. newline 
+            for the complete list refer this link : https://universe.bits-pilani.ac.in/hyderabad/narasimhabolloju/Publications
+    </template>
+</category>
+</aiml>
